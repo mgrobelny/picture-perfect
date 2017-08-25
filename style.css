@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:900i');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+* {	
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	text-align: left;
+	background-color: white;
+}
+h1 {
+	font-size: 60px;
+	font-weight: normal;
+}
+h2 black {
+	color: black;
+}
+h2.white {
+	color: white;
+}
+h2 {
+	font-size: 35px;
+}
+p {
+	font-size: 13px;
+}
+.container {
+	margin: 0 auto;
+	width: 68%;
+}
+/* Jumbotron */
+.jumbotron {
+	width: 100%;
+	height: 722px;
+	padding-top: 19vh;
+	color: white;
+	background-image: url(https://goderictia.files.wordpress.com/2013/10/dsc_0023.jpg);
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+	position: relative;
+}
+.h1jumbo {
+	position:absolute;
+	left:239px;
+	top: 333px;
+}
+.pjumbo {
+	position:absolute;
+	left:239px;
+	top:477px;
+	display: inline-block;
+	width: 450px;
+}
+.fa-circle-thin {
+	position: absolute;
+	left: 239px;
+	top: 41px;
+	font-size: 50px;
+	display: block;
+}
+.fa-circle-o {
+	position: absolute;
+	left: 252px;
+	top: 55px;
+	font-size: 20px;
+	display: block;
+}
+.take {
+	font-family: 'Merriweather', serif;
+	position: absolute;
+	left: 294px;
+	top: 33px;
+	font-size: 20.8px;
+}
+p.takpapp {
+	position: absolute;
+	display: inline-block;
+    transform: rotate(-90deg);
+    left: -15px;
+    top:275px;
+    font-size: 12px;
+}
+span.myriad {
+	font-weight: bold;
+	font-family: 'PT Sans', sans-serif;
+}
+img.phone {
+	position: absolute;
+	height: 700px;
+	right: 180px;
+	top: 250px;
+}
+img.glow {
+	position: absolute;
+	height: 800px;
+	width: 550px;
+	right: 70px;
+	top: 200px;
+}
+/* Start*/
+.start {
+	margin-top: 80px;
+	margin-bottom: 50px;
+	height: 450px;
+}
+[class*='col-'] {
+	float: left;
+	min-height: 10px;
+	padding: 0 23px;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.row {
+	height: auto;
+}
+
+.row::before
+.row::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.empty {
+	height: 198px;
+}
+.something {
+	padding-bottom: 0;
+}
+.col-6 p {
+	font-size: 14px;
+	color: rgb(145,145,145);
+}
+/* Gallery */
+.gallery col-3, .gallery col-6 {
+	height: 240px;
+	border: 1px solid black;
+}
+.gallery {
+	height: 420px;
+	margin: 100px 0 50px 0;
+	padding: 38px 32px;
+	position: relative;
+}
+.left {
+	background-color: #f5989d;
+}
+.left-centre {
+	background-color: #615f7d;
+}
+.right-centre {
+	background-image: url('https://images.pexels.com/photos/513074/pexels-photo-513074.jpeg?h=350&auto=compress&cs=tinysrgb');
+	background-size: 310px 190px;
+	background-position: right bottom;
+}
+.right {
+	background-color: #bd8cbf;
+}
+.gallery p, .gallery h3 {
+	color: white;
+}
+.gallery p {
+	font-size: 13px;
+}
+.gallery h3 {
+	font-weight: normal;
+}
+p.bold {
+	font-weight: bold;
+}
+.left-down {
+	background-image: url('https://images.pexels.com/photos/485362/pexels-photo-485362.jpeg?h=350&auto=compress&cs=tinysrgb');
+	background-position: center top;
+}
+.right-centre-down {
+	background-color: #82ca9c;
+}
+.right-down {
+	background-image: url('https://images.pexels.com/photos/427898/pexels-photo-427898.jpeg?h=350&auto=compress&cs=tinysrgb');
+	background-position: cover;
+}
+.right-down, .right-centre-down, .left-down {
+	height: 185px;
+}
+.fa-heart-o {
+	font-size: 10px;
+	color: white;
+	position: absolute;
+	left: 855px;
+	top: 190px;
+	display: block;
+}
+/* Look */
+div.look {
+	height: 350px;
+	position: relative;
+	margin: 50px 0;
+}
+p.takpapp2 {
+	position: absolute;
+	display: inline-block;
+    transform: rotate(-90deg);
+    left: 15px;
+    top: 60px;
+    font-size: 12px;
+}
+.look p, .solo p {
+	color: rgb(145,145,145);
+}
+.look p.bold {
+	color: black;
+}
+/* More power */
+.jumbotron2 {
+	width: 100%;
+	height: 650px;
+	color: white;
+	background-image: url(https://visualhunt.com/photos/l/7/wheeling-dashboard-boats.jpg);
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+	position: relative;
+}
+.h1jumbo2 {
+	position:absolute;
+	left:239px;
+	top: 233px;
+}
+.h1jumbo3 {
+	position:absolute;
+	left:239px;
+	top: 305px;
+}
+.pjumbo2 {
+	position:absolute;
+	left:239px;
+	top: 430px;
+	display: inline-block;
+	width: 450px;
+}
+/* Reasons */
+section.reasons {
+	background-color: #82ca9c;
+	color: white;
+	height: 500px;
+}
+.reasons h2 {
+	margin-top: 100px;
+}
+/* Solo */
+.solo {
+	height: 550px;
+	background-color: #f6f7fa;
+}
+.row-solo {
+	height: 70px;
+}
+.solo h2 {
+	font-size: 30px;
+	line-height: 10px;
+}
+.solo button {
+	color: white;
+	font-weight: bold;
+	border: none;
+}
+
+button.button-top {
+	background-color: #e1e1e1;
+	padding: 5px 15px;
+	border-radius: 7%;
+	font-size: 10px;
+	margin-bottom: 10px;
+}
+button.button-down {
+	background-color: #82ca9c;
+	padding: 10px 20px;
+	border-radius: 7%;
+	font-size: 12px;
+	margin-top: 10px;
+}
+div.col-6.col-right {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 1px 6px 59px 3px rgba(82,82,82,0.62);
+}
+div.col-6.col-left {
+	padding: 40px;
+}
+.fa-apple, .fa-windows {
+	color: #c5c5c5;
+	margin-top: 15px;
+	font-size: 20px;
+	margin-right: 10px;
+}
+button.button-top.popular {
+	background-color: #bd8cbf;
+}
+/* Footer */
+.footer {
+	height: 500px;
+	background-color: #192431;
+	padding-top: 70px;
+}
+.footer p {
+	color: white;
+	font-size: 13px;
+}
+.button-white, .button-green {
+	height: 50px;
+	border: none;
+}
+.button-white {
+	width: 85%;
+	background-color: #f6f7fa;
+	}
+.button-green {
+	width: 15%;
+	background-color: #82ca9c;
+}
+.fa-check {
+	color: white;
+	font-size: 12px;
+}
+p.p-footer {
+	color: #57697f;
+	font-size: 12px;
+}
+div.col-2 p {
+	line-height: 22px;
+}
+
+
+
